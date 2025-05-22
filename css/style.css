@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+.heading {
+    text-align: center
+}
+
+.columns {
+    float:left;
+    width: 50%;
+    padding: 30px;
+    min-height: 300px;
+}
+
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 768px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+.courier-prime-regular {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime-bold {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.courier-prime-regular-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.courier-prime-bold-italic {
+  font-family: "Courier Prime", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+p{
+    font-family: "Courier Prime", monospace;
+    padding: 20px;
+    line-height: 40px;
+}
+
+h1{
+    font-family: "Courier Prime", monospace;
+}
+
+h2{
+    font-family: "Courier Prime", monospace;
+    padding: 10px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
